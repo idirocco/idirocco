@@ -1,0 +1,24 @@
+# Save as: .github/workflows/blog-posts.yml in your YOUR_USERNAME/YOUR_USERNAME repo
+# Pulls your latest Hashnode posts into README.md between the BLOG-POST-LIST markers.
+name: Update latest blog posts
+
+on:
+  schedule:
+    - cron: "17 9 * * *"   # daily at 06:17 Buenos Aires time
+  workflow_dispatch:        # lets you run it manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://idirocco.hashnode.dev/rss.xml"
+          max_post_count: 5
+          template: "- [$title]($url) — <sub>$date</sub>$newline"
+          date_format: "mmm d, yyyy"
+          commit_message: "chore: update latest blog posts"
