@@ -1,5 +1,3 @@
-# Hi, there 👋
-
 **I build AI products end to end — from product spec and architecture to Node/TypeScript backends and React PWAs.**
 
 I like the messy middle where an idea becomes a real system: figuring out what to build, designing how it fits together, and shipping it.
