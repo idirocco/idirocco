@@ -10,7 +10,7 @@ I like the messy middle where an idea becomes a real system: figuring out what t
 - 🏗️ Building an **AI assistant for construction projects**, helping teams plan and manage work on site
 - 🛠️ Building a **white-label coalition discount network** that connects local businesses and consumers
 - 🤖 Experimenting with **synthetic data pipelines** for domain-specific AI assistants
-- ✍️ Writing **[Building AI Products: Engineering Notes from the Field](https://YOUR_BLOG.hashnode.dev)**
+- ✍️ Writing **[Building AI Products: Engineering Notes from the Field](https://idirocco.hashnode.dev)**
 
 ### 🧰 Stack
 
