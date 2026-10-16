@@ -22,8 +22,7 @@ I like the messy middle where an idea becomes a real system: figuring out what t
 
 ### ✍️ Latest posts
 
-<!-- BLOG-POST-LIST:START -->
-<!-- Updated automatically by .github/workflows/blog-posts.yml -->
+<!-- BLOG-POST-LIST:START -->- [My LLM Judge Went From 70% to 96% Agreement With Humans. Here’s What I Learned.](https://idirocco.hashnode.dev/my-llm-judge-went-from-70-to-96-agreement-with-humans-here-s-what-i-learned) — <sub>Oct 15, 2026</sub>
 <!-- BLOG-POST-LIST:END -->
 
 ➡️ [All posts on Hashnode](https://idirocco.hashnode.dev)
